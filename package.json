@@ -1,5 +1,5 @@
 {
-  "name": "jimjam",
+  "name": "voicerecordapp",
   "scripts": {
     "clean": "rimraf dist",
     "build": "webpack --progress --colors --config webpack/common.config.babel.js",
