@@ -4,7 +4,7 @@ class TextDisplay extends Component {
   render() {
     return (
       <div>
-        hello
+        <h1>Hello! This a React Voice Recorder App</h1>
       </div>
     )
   }
