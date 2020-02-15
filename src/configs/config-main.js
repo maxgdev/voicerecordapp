@@ -1,8 +1,8 @@
 /* Main app configs go here */
 
 export const appConfig = {
-  name: 'Your app name',
-  shortName: 'YourAppName',
-  description: 'Description of your app',
+  name: 'Voice Record App',
+  shortName: 'VoiceRecordApp',
+  description: 'React Voice Recording App based on "How To Develop A Professional React App"',
   splashScreenBackground: '#ffffff'
 }
