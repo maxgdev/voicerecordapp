@@ -9,6 +9,7 @@ import {
 import AppBar                 from 'components/AppBar'
 import FavoritesView          from 'containers/FavoritesView'
 import SharedView             from 'containers/SharedView'
+import RecordView             from 'containers/RecordView'
 import { appConfig }          from 'configs/config-main'
 
 // global styles for entire app
@@ -27,6 +28,7 @@ class App extends Component {
               <Switch>
                 <Route path="/favorites" component={FavoritesView} />
                 <Route path="/shared" component={SharedView} />
+                <Route path="/record" component={RecordView} />
               </Switch>
             </div>
           </div>
